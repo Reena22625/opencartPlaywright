@@ -33,7 +33,7 @@ test.afterEach(async ({ page }) => {
 })
 
 
-test("user registration page @master @sanity @regression", async ({ }) => {
+test("user registration page @regressionAcc", async ({ }) => {
     //Step2 : Go to 'My Account' and click 'Register'
 
     homepage.clickMyAccount();
