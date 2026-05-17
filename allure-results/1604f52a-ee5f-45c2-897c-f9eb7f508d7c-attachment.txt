@@ -1,0 +1,5 @@
+✅ Registration is completed!
+Homepage page displayed
+✅ Logout is completed!
+✅ Login is completed!
+✅ Product added to cart!

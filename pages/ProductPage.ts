@@ -16,7 +16,8 @@ export class ProductPage {
         
         // Initialize locators with CSS selectors
         this.txtQuantity = page.locator('input[name="quantity"]');
-        this.btnAddToCart = page.locator('#button-cart');
+        // this.btnAddToCart = page.locator('#button-cart');
+        this.btnAddToCart = page.getByRole('button', { name: 'Add to Cart' })
         this.cnfMsg = page.locator('.alert.alert-success.alert-dismissible');
         this.btnItems = page.locator('#cart');
         this.lnkViewCart = page.locator('strong:has-text("View Cart")');
